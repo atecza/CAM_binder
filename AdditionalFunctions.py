@@ -5,6 +5,8 @@ def valenceCalc(dataframe):
     Calculate average valence using two methods
     1 - counting ambivalent nodes once
     2 - couunting ambivalent nodes twice
+    
+    TEST COMMENT
     '''
     valence_avg = 0
     if len(dataframe['shape']) > 0:  # If there are any concepts!!
